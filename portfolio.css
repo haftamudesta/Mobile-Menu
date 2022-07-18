@@ -134,6 +134,7 @@ ul {
   width: 100%;
   height: 100%;
   background: #3c3a39;
+  transition: all 1.5s ease;
 }
 
 .contacts > ul {
