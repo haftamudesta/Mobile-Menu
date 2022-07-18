@@ -20,14 +20,14 @@ closes.addEventListener('click', (e) => {
   contacts.style.display = 'none';
   main.style.opacity = '1';
 });
- navlink.addEventListener('click', (e) => {
-   e.preventDefault();
-   hambergur.style.display = 'block';
+  navlink.addEventListener('click', (e) => {
+  e.preventDefault();
+  hambergur.style.display = 'block';
   closes.style.display = 'none';
   contacts.style.display = 'none';
-   main.style.opacity = '1';
+  main.style.opacity = '1';
 });
-contacts.addEventListener("click", (e) => {
+contacts.addEventListener('click', (e) => {
   e.preventDefault();
   contacts.style.display = 'block';
   main.style.opacity = '1';
