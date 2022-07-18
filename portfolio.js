@@ -20,7 +20,7 @@ closes.addEventListener('click', (e) => {
   contacts.style.display = 'none';
   main.style.opacity = '1';
 });
-  navlink.addEventListener('click', (e) => {
+navlink.addEventListener('click', (e) => {
   e.preventDefault();
   hambergur.style.display = 'block';
   closes.style.display = 'none';
