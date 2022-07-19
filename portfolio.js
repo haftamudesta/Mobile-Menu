@@ -4,7 +4,7 @@ const closes = document.querySelector('.close-menu');
 const main = document.querySelector('.main');
 const navlink = document.querySelectorAll('.navlinks');
 const navContainer = document.querySelector('.nav-container');
-hambergur.addEventListener('click', (e) => {
+hambergur.addEventListener('click', () => {
   hambergur.classList.toggle('close');
   closes.style.display = 'block';
   contactsMenu.classList.toggle('active');
@@ -12,7 +12,7 @@ hambergur.addEventListener('click', (e) => {
   main.style.opacity = '0';
   hambergur.style.display = 'none';
 });
-closes.addEventListener('click', (e) => {
+closes.addEventListener('click', () => {
   closes.classList.toggle('allign');
   hambergur.style.display = 'block';
   closes.style.display = 'none';
@@ -20,15 +20,10 @@ closes.addEventListener('click', (e) => {
   contactsMenu.style.display = 'none';
   main.style.opacity = '1';
 });
-navlink.forEach(n => {
+navlink.forEach(n, ()=> {
   n.addEventListener('click', () => {
     hambergur.style.display = 'block';
     closes.style.display = 'none';
     main.style.opacity = '1';
     contactsMenu.style.display = 'none';
-  }
-  )
-});
-
-
-
+  })});

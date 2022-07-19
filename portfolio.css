@@ -15,12 +15,12 @@
 
 @font-face {
   font-family: "Inter";
-  src: url(fonts/Inter-VariableFont_slntwght.ttf) format(ttf);
+  src: url(fonts/static/Inter-ExtraLight.ttf) format(ttf);
 }
 
 @font-face {
   font-family: "InaiMathi";
-  src: url(fonts/Murasuit.ttf) format(ttf);
+  src: url(fonts/Poppins-Bold.ttf) format(ttf);
 }
 
 html {
@@ -88,6 +88,11 @@ body {
   transition: 0.3s ease-in-out;
 }
 
+ul {
+  list-style: none;
+  display: flex;
+}
+
 .contacts-menu > ul {
   display: flex;
   flex-direction: column;
@@ -149,11 +154,6 @@ body {
   font-size: 18px;
   animation: animation-test 6s ease-in;
   margin-top: -16px;
-}
-
-ul {
-  list-style: none;
-  display: flex;
 }
 
 .section1 {
@@ -585,7 +585,6 @@ ul {
   left: 0;
   top: 0;
   background: #1c1a19;
-  
 }
 
 .aboutMe {
