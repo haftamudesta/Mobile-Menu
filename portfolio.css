@@ -1,28 +1,4 @@
-@font-face {
-  font-family: "Roboto";
-  src: url(fonts/Roboto-Regular.ttf) format(ttf);
-}
-
-@font-face {
-  font-family: "Crete Round";
-  src: url(fonts/CreteRound-Regular.ttf) format(ttf);
-}
-
-@font-face {
-  font-family: "Poppins";
-  src: url(fonts/Poppins-Regular.ttf) format(ttf);
-}
-
-@font-face {
-  font-family: "Inter";
-  src: url(fonts/static/Inter-ExtraLight.ttf) format(ttf);
-}
-
-@font-face {
-  font-family: "InaiMathi";
-  src: url(fonts/Poppins-Bold.ttf) format(ttf);
-}
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 html {
   width: 100%;
   height: 100%;
