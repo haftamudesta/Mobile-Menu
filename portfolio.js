@@ -26,5 +26,5 @@ navlink.forEach(n => {
     closes.style.display = 'none';
     main.style.opacity = '1';
     contactsMenu.style.display = 'none';
-  }
-  )});
+  });
+});
