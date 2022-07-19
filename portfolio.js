@@ -21,11 +21,9 @@ closes.addEventListener('click', () => {
   contactsMenu.style.display = 'none';
   main.style.opacity = '1';
 });
-navlink.forEach(n,() => {
-  n.addEventListener('click', () => {
+navlink.forEach(n => n.addEventListener('click', () => {
     hambergur.style.display = 'block';
     closes.style.display = 'none';
     main.style.opacity = '1';
     contactsMenu.style.display = 'none';
-  });
-});
+  }));
