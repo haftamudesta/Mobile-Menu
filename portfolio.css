@@ -921,8 +921,8 @@ ul {
 
 .images1 {
   font-size: 30px;
-  filter: 
-  invert(38%) sepia(41%) saturate(291%) hue-rotate(179deg)
+  filter:
+    invert(38%) sepia(41%) saturate(291%) hue-rotate(179deg)
     brightness(88%) contrast(97%);
 }
 
