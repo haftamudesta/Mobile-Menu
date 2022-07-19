@@ -4,6 +4,7 @@ const closes = document.querySelector('.close-menu');
 const main = document.querySelector('.main');
 const navlink = document.querySelectorAll('.navlinks');
 const navContainer = document.querySelector('.nav-container');
+let n;
 hambergur.addEventListener('click', () => {
   hambergur.classList.toggle('close');
   closes.style.display = 'block';
