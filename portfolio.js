@@ -21,7 +21,7 @@ closes.addEventListener('click', () => {
   contactsMenu.style.display = 'none';
   main.style.opacity = '1';
 });
-navlink.forEach(n => {
+navlink.forEach(n,() => {
   n.addEventListener('click', () => {
     hambergur.style.display = 'block';
     closes.style.display = 'none';
