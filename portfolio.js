@@ -4,7 +4,6 @@ const closes = document.querySelector('.close-menu');
 const main = document.querySelector('.main');
 const navlink = document.querySelectorAll('.navlinks');
 const navContainer = document.querySelector('.nav-container');
-let n;
 hambergur.addEventListener('click', () => {
   hambergur.classList.toggle('close');
   closes.style.display = 'block';
@@ -21,9 +20,9 @@ closes.addEventListener('click', () => {
   contactsMenu.style.display = 'none';
   main.style.opacity = '1';
 });
-navlink.forEach(n => n.addEventListener('click', () => {
-    hambergur.style.display = 'block';
-    closes.style.display = 'none';
-    main.style.opacity = '1';
-    contactsMenu.style.display = 'none';
-  }));
+navlink.forEach((n) => n.addEventListener('click', () => {
+  hambergur.style.display = 'block';
+  closes.style.display = 'none';
+  main.style.opacity = '1';
+  contactsMenu.style.display = 'none';
+}));
