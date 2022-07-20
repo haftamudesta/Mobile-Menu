@@ -34,7 +34,7 @@ body {
 .allign {
   display: block;
   position: relative;
-  right: 8%;
+  right: -800%;
   color: #fff;
   cursor: pointer;
 }
@@ -42,11 +42,11 @@ body {
 .close-menu {
   display: none;
   position: relative;
-  right: 8%;
+  right: 100%;
   color: #fff;
   font-size: 40px;
   cursor: pointer;
-  bottom: 40px;
+  bottom: 43px;
 }
 
 .contacts-menu {
@@ -93,6 +93,11 @@ ul {
   background: blueviolet;
 }
 
+hr {
+  width: 300px;
+  margin-left: -5px;
+}
+
 .contacts {
   display: none;
 }
@@ -115,22 +120,6 @@ ul {
   left: 0;
   top: 34px;
   justify-content: space-between;
-}
-
-.haftamu {
-  position: relative;
-  width: 72px;
-  height: 24px;
-  left: 0;
-  margin-left: 12px;
-  top: 20px;
-  color: #fff;
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  animation: animation-test 6s ease-in;
-  margin-top: -16px;
 }
 
 .section1 {
@@ -946,7 +935,11 @@ ul {
     display: none;
   }
 
-  .haftamu {
+  .lower-bar {
+    display: none;
+  }
+
+  .contacts-menu {
     display: none;
   }
 
@@ -980,6 +973,10 @@ ul {
     font-size: 18px;
     animation: animation-test 4s ease-in;
     animation-iteration-count: infinite;
+  }
+
+  .name a {
+    text-decoration: none;
   }
 
   .contacts > ul {
