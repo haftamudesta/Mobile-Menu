@@ -939,10 +939,6 @@ hr {
     display: none;
   }
 
-  .contacts-menu {
-    display: none;
-  }
-
   .desktop-left {
     display: flex;
     flex-direction: row;
