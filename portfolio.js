@@ -24,5 +24,6 @@ navlink.forEach((n) => n.addEventListener('click', () => {
   hambergur.style.display = 'block';
   closes.style.display = 'none';
   main.style.opacity = '1';
-  contactsMenu.style.display = 'none';
+  navContainer.style.height = '92px';
+  contactsMenu.classList.toggle('active');
 }));
