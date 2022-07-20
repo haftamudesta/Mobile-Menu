@@ -7,7 +7,7 @@ const navContainer = document.querySelector('.nav-container');
 hambergur.addEventListener('click', () => {
   hambergur.classList.toggle('close');
   closes.style.display = 'block';
-  contactsMenu.classList.toggle('active');
+  contactsMenu.classList.add('active');
   navContainer.style.height = '300px';
   main.style.opacity = '0';
   hambergur.style.display = 'none';
@@ -17,7 +17,7 @@ closes.addEventListener('click', () => {
   hambergur.style.display = 'block';
   closes.style.display = 'none';
   navContainer.style.height = '92px';
-  contactsMenu.classList.toggle('active');
+  contactsMenu.classList.remove('active');
   main.style.opacity = '1';
 });
 navlink.forEach((n) => n.addEventListener('click', () => {
